@@ -4,6 +4,8 @@ import LittleLemmonHeader from './components/LittleLemmonHeader';
 import LittleLemmonFooter from './components/LittleLemmonFooter';
 import LittleLemmonWlcm from './components/LittleLemmonWlcm';
 import MenuItems from './components/MenuItems';
+import MenuWithFlatList from './components/MenuWithFlatList';
+import FlatlistPractice from './components/FlatlistPractice';
 
 export default function App() {
   return (
@@ -17,7 +19,9 @@ export default function App() {
       <View style={{bottom:-200}}>
       <LittleLemmonFooter></LittleLemmonFooter>
       </View> */}
-      <MenuItems></MenuItems>
+      {/* <MenuItems></MenuItems> */}
+      {/* <MenuWithFlatList></MenuWithFlatList> */}
+      <FlatlistPractice></FlatlistPractice>
     </View>
   );
 }
