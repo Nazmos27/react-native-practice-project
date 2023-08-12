@@ -1,20 +1,32 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import LittleLemmonHeader from './components/LittleLemmonHeader';
+import LittleLemmonFooter from './components/LittleLemmonFooter';
+import LittleLemmonWlcm from './components/LittleLemmonWlcm';
+import MenuItems from './components/MenuItems';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    // <View style={styles.container}>
+    //   <Text style={{fontSize:20}}>Hi,Hello World</Text>
+    //   <StatusBar style="auto" />
+    // </View>
+    <View style={{flex:1,backgroundColor: '#495E57'}}>
+      <LittleLemmonHeader></LittleLemmonHeader>
+      {/* <LittleLemmonWlcm></LittleLemmonWlcm>
+      <View style={{bottom:-200}}>
+      <LittleLemmonFooter></LittleLemmonFooter>
+      </View> */}
+      <MenuItems></MenuItems>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+// });
