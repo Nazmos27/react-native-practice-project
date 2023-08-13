@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import LittleLemmonHeader from './components/LittleLemmonHeader';
 import LittleLemmonFooter from './components/LittleLemmonFooter';
-import SectionListPractice from './components/SectionListPractice';
+import UserFeedbackForm from './components/UserFeedbackForm';
 
 export default function App() {
   return (
@@ -15,7 +15,8 @@ export default function App() {
       {/* <MenuItems></MenuItems> */}
       {/* <MenuWithFlatList></MenuWithFlatList> */}
       {/* <FlatlistPractice></FlatlistPractice> */}
-      <SectionListPractice></SectionListPractice>
+      {/* <SectionListPractice></SectionListPractice> */}
+      <UserFeedbackForm></UserFeedbackForm>
     </View>
   );
 }
